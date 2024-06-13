@@ -2,7 +2,7 @@ import { Container, Heading, Section, SearchForm } from 'components';
 import { useSearchParams } from 'react-router-dom';
 
 export const SearchCountry = () => {
-  const [searhParams, setSearchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const submit = region => {
     setSearchParams({ region });
